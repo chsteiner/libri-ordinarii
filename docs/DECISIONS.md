@@ -74,8 +74,10 @@ nennt, sagt das dazu.
 ## ADR-4: Freigabe über Kickoff, Autonomie über Labels
 
 **Datum:** 22.09.2026. **Entschieden von:** Christian Steiner, übernommen aus
-`mhdbdb-tei-only` (Betriebsvertrag seit 05.08.2026) und `corema` (Labelschema
-seit 24.08.2026).
+`mhdbdb-tei-only` (Betriebsvertrag und Labelschema seit 05.08.2026) und
+`corema` (Labelschema seit 21.08.2026, `auto:brief` seit 24.08.2026; beides
+per `git log -S 'auto:full'` am 22.09.2026 nachgemessen, vorher stand hier
+24.08.).
 
 **Kontext.** Ein Repositorium, an dem Agenten arbeiten, braucht eine Antwort
 auf die Frage, was ein Agent allein darf. Ein Zeitplan, der Sessions von selbst
