@@ -91,7 +91,7 @@ Variante bezieht, oder steht leer an der Stelle), `choice/sic/corr`, `del`,
 | | `@corresp` | Konkordanzen als Siglenfolge, z. B. `GBE VHRDFSL` | roh übernommen |
 | | `@subtype` | `supplied`: vom Bearbeiter ergänzt, nicht im Original | |
 | | `@function` | nur in Salzburg belegt, Bedeutung nicht dokumentiert | `OFFENE-FRAGEN.md` |
-| `metamark` | `@function` | immer `variant` | der Apparat liegt in den Dateien einer Tradition identisch vor |
+| `metamark` | `@function` | immer `variant` | der Apparat liegt in den Dateien einer Tradition fast, aber nicht genau identisch vor (`OFFENE-FRAGEN.md`, F6; `CLAUDE.md`, Fallstrick 1) |
 
 ## Die abgeleitete Schicht
 

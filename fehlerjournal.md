@@ -41,4 +41,16 @@ Spuren dieselbe Nummer in verschiedenen Abschnitten vergeben.
 
 ## Rote Zeilen
 
-Noch keine. Die nächste ist 1.
+### Fehler 1 (rot): »fünf Passauer« in drei Dokumenten, gemessen waren sechs
+
+**Nicht gegriffen hat** `journal.md`, Kopf: »Zahlen werden hier nicht
+fortgeschrieben, sondern beim Nennen gemessen und datiert«, und
+`playbooks/BETRIEBSVERTRAG.md`, Regel 17: »Jede Zahl im PR-Body nennt ihre
+Zählkonvention«. Am 22.09.2026 vormittags stand die Zahl der Passauer Dateien
+in `CLAUDE.md` (Fallstrick 1), `docs/OFFENE-FRAGEN.md` (F6) und `journal.md`
+als fünf, obwohl `derived/corpus-stats.md` im selben Commit sechs Zeilen für
+Passau führt; geschrieben aus dem Gedächtnis der Erkundung, nicht aus der
+Tabelle. Getragen hat es: der ZfdG-Beitrag hat die Fünf aus `CLAUDE.md`
+übernommen und in einem freigegebenen Absatz stehen gehabt. Gefunden von
+einem Opus-Belegprüfer am Nachmittag, nachgesehen von Christian Steiner und
+Claude Fable 5.1 an der Tabelle. Letzte Zeile zu derselben Lehre: keine.

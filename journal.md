@@ -37,7 +37,8 @@ stehen als ADR-1 bis ADR-5 in `docs/DECISIONS.md`.
 anderer Sigle in `@n`, 51.420 ohne `@n`; 12.382 Incipits ohne Hora, davon
 11.754 im Kommentarteil (`.comment.` in der `xml:id`); 4.389 ohne Fest.
 Der Variantenapparat liegt in den Dateien einer Tradition fast identisch vor
-(Salzburg 3 × 5.229 und 1 × 5.230, Passau 4 × 7.710 und 1 × 7.709,
+(Salzburg 3 × 5.229 und 1 × 5.230, Passau 5 × 7.710 und 1 × 7.709 [am
+22.09.2026 nachmittags korrigiert, stand mit »4 ×« da; Fehler 1],
 Klosterneuburg 4 × 6.473; F6 in `docs/OFFENE-FRAGEN.md`). `pruefen.py`:
 GRUEN, 0 harte Verstöße, 4 Befundklassen, dokumentiert als F1 bis F9. Die Zahlen
 von heute stehen hier mit Datum; die lebenden in `derived/corpus-stats.md`.
@@ -80,3 +81,29 @@ Nicht gezählt, weil der Fehler nichts getragen hat, bevor er gefunden wurde;
 der Fund kam über das Paper, nicht über eine Prüfung hier.
 
 **Offen.** Unverändert A1 bis A6.
+
+## 2026-09-22 – Passau sind sechs Dateien, handoff
+
+**Stand.** Eine Belegprüfung für den ZfdG-Beitrag (Opus-Agent, von
+Christian Steiner und Claude Fable 5.1 an `derived/corpus-stats.md`
+nachgesehen) hat gezeigt: Passau hat sechs Dateien mit Variantenapparat
+(`passau_ur`, `passau_knb`, `passau_sal`, `passau_sp`, `passau_sve`,
+`passau_wie`; 5 × 7.710, 1 × 7.709), nicht fünf. Die Fünf stand in
+`CLAUDE.md` (Fallstrick 1), `docs/OFFENE-FRAGEN.md` (F6) und im ersten
+Eintrag dieses Journals, alle drei am Vormittag aus dem Gedächtnis
+geschrieben statt aus der Tabelle. Alle drei korrigiert; dazu
+`docs/DATA-MODEL.md`, Zeile zu `metamark`, die »identisch« sagte und damit
+F6 und Fallstrick 1 widersprach. Rote Zeile: `fehlerjournal.md`, Fehler 1.
+
+**Gemessen** (22.09.2026, `derived/corpus-stats.md`): Dateien je Stamm vor
+dem ersten Punkt der Kennung: 16 Stämme (brixen, emmeram, enns, freising,
+hartkirchen, hirsau, klosterneuburg, moosburg, passau, regensburg, salzburg,
+seckau1, seckau2, seckau3, stnikola, vorau). Das ist eine andere Menge als
+die 14 Traditionen des Projektberichts (Klugseder / Steiner 2024), der
+Seckau anders schneidet; wer Traditionen zählt, nennt die Konvention.
+
+**Offen.** `corpus-stats.md` trägt kein Messdatum, obwohl `CLAUDE.md` es
+verlangt; `ableiten.py` sollte es schreiben (kleine Änderung, noch nicht
+gemacht). Die Kommentar-Zahlen im ersten Eintrag (11.754) und in
+`corpus-stats.md` (12.275) sind zwei Konventionen ohne Konvention daneben;
+zu klären, welche `ableiten.py` heute zählt. Unverändert A1 bis A6.

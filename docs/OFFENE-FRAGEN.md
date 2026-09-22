@@ -64,7 +64,8 @@ enden.
 
 Die Dateien einer Tradition tragen fast, aber nicht genau dieselbe Zahl
 `metamark`: Salzburg 5.229, 5.229, 5.229, 5.230; Passau 7.710, 7.710, 7.710,
-7.710, 7.709; Emmeram 2.664, 2.664, 2.662; Klosterneuburg 4 × 6.473; Seckau 1
+7.710, 7.710, 7.709 (sechs Dateien, `derived/corpus-stats.md`); Emmeram
+2.664, 2.664, 2.662; Klosterneuburg 4 × 6.473; Seckau 1
 2 × 968. Ist der Apparat je Tradition einmal erzeugt und in jede Datei
 kopiert worden, und sind die Abweichungen spätere Handkorrekturen? Dann wäre
 die Frage, welche Datei den aktuellen Apparat hat. **Wer antworten kann:**

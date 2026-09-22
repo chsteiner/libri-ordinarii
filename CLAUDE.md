@@ -10,7 +10,7 @@ ist eingebunden und wird hier nicht wiederholt:
 1. **Vier Salzburger Dateien sind eine Tradition, nicht vier Handschriften.**
    `salzburg_sal`, `salzburg_ur`, `salzburg_ra`, `salzburg_vo` tragen denselben
    Variantenapparat (`metamark`: 5.229, 5.229, 5.229, 5.230, am 22.09.2026
-   gemessen); dasselbe gilt für die fünf Passauer (4 × 7.710, 1 × 7.709) und
+   gemessen); dasselbe gilt für die sechs Passauer (5 × 7.710, 1 × 7.709) und
    die vier Klosterneuburger Dateien (4 × 6.473). Die Abweichungen um eins
    sind `docs/OFFENE-FRAGEN.md`, F6. Wer »Handschriften« zählt, sagt, ob Dateien oder
    Traditionen gemeint sind.
