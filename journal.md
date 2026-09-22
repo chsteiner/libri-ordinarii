@@ -60,3 +60,23 @@ GitHub-Grenze; gitignoriert, ADR-1 ergänzt. TEIs kopieren oder als Submodul (AD
 **Nicht getan.** Kein Aufruf des Cantus Index (externer Dienst, braucht einen
 Kickoff mit Freigabe, A2). Kein Vermerk geschrieben: `data/vermerke.jsonl`
 existiert noch nicht, `pruefen.py` meldet das.
+
+## 2026-09-22 – Herkunft korrigiert, handoff
+
+**Stand.** Zwei Angaben zur Herkunft des TEI waren aus dem Gedächtnis
+geschrieben und stimmten nicht; korrigiert an den publizierten Quellen, die
+Christian Steiner am selben Tag ins Paper-Repositorium gegeben hat (Steiner /
+Klugseder 2019, Das Mittelalter 24,1; Klugseder / Steiner 2024, Festschrift
+Praßl). `docs/DATA-MODEL.md`: nicht ein Makro, sondern eine Java-Anwendung
+hat aus den Word-Dateien zuerst wohlgeformtes XML und dann TEI erzeugt;
+Laufzeit 2015 bis 2019. `docs/INDEX.md`: »2014 bis 2023« war die Spanne des
+GitHub-Klons, jetzt Laufzeit und GitHub-Stand getrennt.
+
+**Lehre, keine rote Zeile.** Beide Angaben standen in Dokumenten, die als
+Wissensbasis für Agenten gedacht sind, und beide hätte ein Agent
+weitergetragen. Die Quelle lag eine Datei weiter (`Cantus-Dokumentation.pdf`
+beschreibt das Word-Add-In, nicht den Konverter) und im Paper-Repositorium.
+Nicht gezählt, weil der Fehler nichts getragen hat, bevor er gefunden wurde;
+der Fund kam über das Paper, nicht über eine Prüfung hier.
+
+**Offen.** Unverändert A1 bis A6.

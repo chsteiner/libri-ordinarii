@@ -18,9 +18,13 @@ Festbezeichnung, Zeiteinheit, Incipit, Neume, Person, Ort, Funktion, dazu eine
 Zeichen-Notation für alles, was Word nicht kennt (`|R|` Rasur, `|R::Text|`
 Rasur mit Ergänzung, `%D::Text%` Streichung, `$E::Text$` Einfügung,
 `|M::Text|` Marginalie, `|I::Kommentar|` Bearbeiterkommentar, `@` fixes
-Leerzeichen, `€` Pre-Phrase vor einer Zeiteinheit). Ein Makro hat daraus TEI
-erzeugt; `../cantus/xslt/` hält die Nachbearbeitung (IDs, Querverweise,
-Incipit-CSV, RDF), `../cantus/print/` die Ausgabe nach LaTeX.
+Leerzeichen, `€` Pre-Phrase vor einer Zeiteinheit). Eine in Java geschriebene
+Anwendung hat daraus zuerst wohlgeformtes, noch nicht valides XML erzeugt und
+die Zeichenfolgen über reguläre Ausdrücke durch TEI-Konstrukte ersetzt
+(Steiner / Klugseder 2019, Das Mittelalter 24,1, S. 212); `../cantus/xslt/`
+hält die Nachbearbeitung (IDs, Querverweise, Incipit-CSV, RDF),
+`../cantus/print/` die Ausgabe nach LaTeX. Projektlaufzeit 2015 bis 2019
+(ebd., Anm. 1); der GitHub-Klon reicht bis 2023.
 
 Die Edition steht in GAMS unter `o:cantus.<handschrift>` mit PIDs, Lizenz
 CC BY-NC 4.0. Was hier liegt, ist der Stand des GitHub-Repositoriums

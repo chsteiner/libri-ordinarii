@@ -1,7 +1,7 @@
 # Libri ordinarii: die Wissensbasis
 
 Libri ordinarii der Salzburger Kirchenprovinz aus dem Projekt Cantus Network
-(2014 bis 2023), TEI-kodiert, mit Incipits, Cantus-IDs und Variantenapparat.
+(Laufzeit 2015 bis 2019, GitHub-Stand vom 17.01.2023), TEI-kodiert, mit Incipits, Cantus-IDs und Variantenapparat.
 Dieses Repositorium ist die **Arbeitsschicht** darüber: was ein Team und seine
 Agenten wissen müssen, um an den Daten weiterzuarbeiten, ohne die Edition in
 GAMS zu verändern.
