@@ -20,6 +20,7 @@ import json
 import re
 import sys
 from collections import Counter, defaultdict
+from datetime import datetime
 from pathlib import Path
 
 from lxml import etree
@@ -197,9 +198,19 @@ def main():
     n_hs = len(stats)
 
     # corpus-stats.md
+    # Das Messdatum gehoert in die Datei: eine Zahl ist am Tag ihrer Messung
+    # richtig (CLAUDE.md, Regel 5). Die Quelle relativ zum Elternordner, damit
+    # kein Pfad eines einzelnen Arbeitsplatzes in das Repositorium wandert.
+    try:
+        quelle = "../" + tei_dir.resolve().relative_to(HIER.parent).as_posix()
+    except ValueError:
+        quelle = tei_dir.as_posix()
+    gemessen = datetime.now().strftime("%d.%m.%Y, %H:%M")
     k = ["# Der Bestand in Zahlen", "",
          "Erzeugt von `scripts/ableiten.py`, bei jedem Lauf neu gemessen. Nicht von",
          "Hand aendern. Quelle: die `*_current_tei.xml` unter `--tei-dir`.", "",
+         f"Gemessen am {gemessen} Uhr aus `{quelle}`: {len(dateien)} Dateien "
+         f"`*_current_tei.xml`.", "",
          f"**{n_hs} Handschriften** (Dateien, die auf `_current_tei.xml` enden; "
          f"{len(uebersprungen)} andere Dateien im Ordner uebersprungen: "
          + (", ".join(f"`{u}`" for u in uebersprungen) or "keine") + ").", "",

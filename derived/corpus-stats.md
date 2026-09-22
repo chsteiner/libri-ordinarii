@@ -3,6 +3,8 @@
 Erzeugt von `scripts/ableiten.py`, bei jedem Lauf neu gemessen. Nicht von
 Hand aendern. Quelle: die `*_current_tei.xml` unter `--tei-dir`.
 
+Gemessen am 22.09.2026, 14:59 Uhr aus `../cantus/TEIs`: 31 Dateien `*_current_tei.xml`.
+
 **31 Handschriften** (Dateien, die auf `_current_tei.xml` enden; 1 andere Dateien im Ordner uebersprungen: `emmeram_emm1_NOVARIANTS.xml`).
 
 **287844 Incipits** in allen 31 Handschriften, davon 58292 `supplied` (vom Bearbeiter ergaenzt) und 229552 im Original; 166209 tragen eine Cantus-ID, 70215 eine andere Sigle in `@n`, 51420 keine. 4612 Incipits enthalten mindestens eine Variantenmarke; 312 tragen mehr als eine Cantus-ID in einem `@n`.
