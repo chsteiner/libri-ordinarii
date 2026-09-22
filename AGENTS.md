@@ -57,8 +57,9 @@ Betrieb; die Definitionen liegen in [`.github/labels.json`](.github/labels.json)
   `large` (ein Tag oder mehr)
 - **Flags**: `quelle` (betrifft die TEIs in `../cantus`, also die Edition
   selbst: hier nur als Vermerk, nie als Änderung) und `modell:offen` (die
-  Entscheidung über eine Lesart oder ein Modell fehlt noch, die Umsetzung ist
-  blockiert).
+  Entscheidung über das Datenmodell oder das Vokabular fehlt noch, die
+  Umsetzung ist blockiert; eine Lesart der Quelle ist nie gemeint, die
+  entscheidet nach `docs/MASCHINELLE-EDITORIK.md` kein Modell).
 
 **`modell:offen` heißt nicht »wartet auf Christian«.** Eine Modellfrage darf
 ein Frontier-Modell entscheiden, wenn der Auftrag Zählung, Belege und die

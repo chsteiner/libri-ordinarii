@@ -30,7 +30,11 @@ die Abschnitte 1, 2 und 4 sind der harte Kern und dürfen nie fehlen.
 
 Welche Issues, in welcher Reihenfolge, je ein Arbeitspaket. Die Auswahl kommt
 aus den `auto:*`-Labels, aber sie ist damit noch nicht freigegeben. Was in den
-Prompt gehört, ist die geprüfte Auswahl, nicht die Labelabfrage.
+Prompt gehört, ist die geprüfte Auswahl, nicht die Labelabfrage. In eine
+autonome Session gehören nur Issues der Stufen `auto:full` und `auto:brief`,
+letztere erst, wenn ihre Vorabfragen beantwortet sind und die Antworten unter
+den Weichen (4) stehen. `auto:checkin` und `auto:pair` brauchen Christian am
+Terminal und passen nicht zu einem Vertrag, der Fragen und Warten untersagt.
 
 ### 4. Die Weichen (session-spezifisch)
 

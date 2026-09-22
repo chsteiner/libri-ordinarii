@@ -9,8 +9,13 @@ vor. Jeder Vorschlag, der eine Stelle in den TEIs betrifft, wird als
 **Vermerk** in `data/vermerke.jsonl` festgehalten, eine Zeile je Vorschlag,
 und `scripts/pruefen.py` rendert daraus `derived/vermerke.md`, den Prüfstand.
 Ein Vermerk hat einen Status, und den Übergang von `vorgeschlagen` nach
-`geprueft` oder `verworfen` setzt ein Mensch mit Namen und Datum. Ein Agent,
-der `geprueft` schreibt, produziert einen harten Verstoß in `pruefen.py`.
+`geprueft` oder `verworfen` setzt ein Mensch mit Namen und Datum. Das ist
+eine Arbeitsregel, kein Mechanismus: `pruefen.py` erzwingt nur die Form (ein
+`geprueft` ohne `geprueft_von` und `geprueft_am` ist ein harter Verstoß); ob
+den Namen ein Mensch geschrieben hat, kann kein Skript prüfen. Ein Agent, der
+`geprueft` setzt, verstößt gegen diese Regel und gegen den Betriebsvertrag,
+nicht gegen das Skript. (Präzisiert am 22.09.2026 nach einem Review des
+Beitrags, der das Skript als Durchsetzung beschrieben hatte.)
 
 Das ist die Übertragung der Korrekturregel aus `corema`
 (`scripts/korrektur.py --eintragen <pfad> --sachverhalt <kennung>`, jede
