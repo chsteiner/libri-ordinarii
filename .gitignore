@@ -1,0 +1,14 @@
+# Scratch, nie committen
+temp/
+.claude/tmp/
+__pycache__/
+*.pyc
+
+# Die grosse Ableitung wird nicht committet (145 MB am 22.09.2026, GitHub
+# sperrt ab 100 MB); scripts/ableiten.py erzeugt sie in etwa einer Minute.
+# Die beiden Markdown-Dateien daneben werden committet, siehe ADR-1.
+derived/incipits.jsonl
+
+# Die TEIs liegen nicht hier, sondern im Klon von chsteiner/cantus daneben.
+# Wer sie doch hierher kopiert, committet sie nicht (CC BY-NC 4.0, OeAW).
+data/tei/

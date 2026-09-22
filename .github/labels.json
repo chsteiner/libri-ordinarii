@@ -1,0 +1,17 @@
+[
+  {"name": "auto:full", "color": "0e8a16", "description": "Ziel, Kriterien und Daten liegen vor, keine offene Frage: ein Agent bringt es allein zu Ende"},
+  {"name": "auto:brief", "color": "5fbf3a", "description": "Ein bis drei Fragen vorab im Kickoff, dann durchziehbar"},
+  {"name": "auto:checkin", "color": "fbca04", "description": "Eine Entscheidung fällt mitten im Lauf an, etwa nach einer Stichprobe"},
+  {"name": "auto:pair", "color": "d93f0b", "description": "Braucht Christians Anwesenheit oder Autorität durchgehend: Orga, Strategie, Externe"},
+  {"name": "auto:blocked", "color": "b60205", "description": "Wartet auf Dritte, Zugang von außen oder ein anderes Issue; die Nummer steht im Grund"},
+  {"name": "area:data", "color": "1d76db", "description": "Die abgeleitete Schicht und die Vermerke"},
+  {"name": "area:pipeline", "color": "0052cc", "description": "Skripte, Ableitung, Prüfung"},
+  {"name": "area:docs", "color": "5319e7", "description": "Die Wissensbasis unter docs/"},
+  {"name": "area:agents", "color": "c5def5", "description": "AGENTS.md, CLAUDE.md, Playbooks, Labels"},
+  {"name": "area:orga", "color": "bfdadc", "description": "Repositorium, Lizenz, Veröffentlichung, Kontakt"},
+  {"name": "effort:small", "color": "c2e0c6", "description": "Eine Stunde oder weniger"},
+  {"name": "effort:medium", "color": "fef2c0", "description": "Ein halber Tag"},
+  {"name": "effort:large", "color": "f9d0c4", "description": "Ein Tag oder mehr"},
+  {"name": "quelle", "color": "000000", "description": "Betrifft die TEIs in chsteiner/cantus: hier nur als Vermerk, nie als Änderung"},
+  {"name": "modell:offen", "color": "e99695", "description": "Eine Frage an der Datenschicht ist unentschieden; ein Frontier-Modell darf sie mit Belegen entscheiden (ADR-5)"}
+]
