@@ -69,7 +69,8 @@ dasteht.
 **Warum `checkin`.** Erst eine Stichprobe zeigt, ob `#place` die Orte im
 Kirchenraum trägt oder nur Ortsnamen (Diözesen, Städte); danach fällt die
 Entscheidung, ob ein zweites Vokabular nötig ist. **Warum `modell:offen`.** Ob
-»ad altare sancti Ruperti« und »altare s. Rudberti« ein Ort sind, ist eine
+zwei Schreibungen wie »ad altare sancti Ruperti« und »altare s. Rudberti«
+(ein konstruiertes Beispiel, beide stehen so nicht im Bestand) ein Ort sind, ist eine
 Vokabularfrage an der Datenschicht (ADR-5); ein Frontier-Modell darf sie mit
 Belegen entscheiden. **Was der Agent nicht entscheidet:** welcher reale Altar
 gemeint ist.
