@@ -107,3 +107,24 @@ verlangt; `ableiten.py` sollte es schreiben (kleine Änderung, noch nicht
 gemacht). Die Kommentar-Zahlen im ersten Eintrag (11.754) und in
 `corpus-stats.md` (12.275) sind zwei Konventionen ohne Konvention daneben;
 zu klären, welche `ableiten.py` heute zählt. Unverändert A1 bis A6.
+
+## 2026-09-24 – Fachliche Abnahme zurückgeholt, handoff
+
+**Stand.** Neue Regel 22 in `playbooks/BETRIEBSVERTRAG.md` (Abschnitt 7,
+»Wer abnimmt«), Regel 3 verweist darauf. Der Vertrag hat jetzt 22 Regeln in
+sieben Abschnitten (`grep -cE '^[0-9]+\. '` und `grep -c '^## '`).
+
+**Entschieden** (Christian Steiner, 24.09.2026). Die Abnahme durch eine
+Fachperson war bei der Übertragung aus `mhdbdb-tei-only` entfallen (dort
+Regel 17: offene Issues warten auf die Abnahme durch die Fachexpertin, »ein
+`Closes #N` ist keine Abnahme«). Sie kommt als Rolle zurück, ausdrücklich
+unbesetzt: Das Repositorium ist der Zustand vor der ersten Aufgabe, und wer
+im Editionsteam liturgiewissenschaftlich abnimmt, entscheidet das Team, nicht
+dieses Repositorium. Christians Review prüft die technische Seite. Die
+Frage dahinter: woran sich messen ließe, ob agentische Arbeit besser wird.
+Das Signal dafür ist die begründete Abnahme, nicht die Zahl der
+Review-Runden.
+
+**Offen.** Kein Label markiert bisher, welches Issue eine Abnahme braucht;
+das Kriterium in Regel 22 ist inhaltlich (»Aussage über das liturgische
+Material«). Unverändert A1 bis A6.

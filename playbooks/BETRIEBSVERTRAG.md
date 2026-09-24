@@ -22,7 +22,8 @@ kann, ohne dass es jemand merkt.
 2. **Kein Force-Push nach `main`,** in keiner Session, unter keinen Umständen.
    Auf `claude/*`-Branches ist `--force-with-lease` nach einem Rebase Standard.
 3. **Issues werden nie von der Session geschlossen,** nur per `Closes #N` im
-   PR-Body beim Merge.
+   PR-Body beim Merge, und nur bei Issues, die keine fachliche Abnahme
+   brauchen (Regel 22).
 4. **Keine Kontaktaufnahme mit Externen:** nicht mit den Herausgebern der
    Edition (ÖAW, Cantus Network), nicht mit dem Cantus Index, nicht mit den
    Herausgebenden des Sonderbands. Entwürfe für sie landen als Text im Issue.
@@ -105,3 +106,18 @@ kann, ohne dass es jemand merkt.
     Zeile in `fehlerjournal.md`**, mit Datum, was passiert ist, welche Lehre
     nicht gegriffen hat und wo sie steht. Bei der dritten Zeile zu derselben
     Lehre wird nicht mehr gezählt, sondern ein Mechanismus vorgeschlagen.
+
+## 7. Wer abnimmt
+
+22. **Fachliche Abnahme ist eine eigene Rolle, und sie ist unbesetzt.** Ein
+    Issue, dessen Ergebnis eine Aussage über das liturgische Material trägt,
+    gilt erst als erledigt, wenn eine Fachperson es abgenommen hat. Ein
+    gemergter PR ist keine Abnahme und `Closes #N` auch nicht; solche Issues
+    bleiben nach dem Merge offen. Christians Review nach Regel 1 prüft die
+    technische Seite und ersetzt die Abnahme nicht. Wer abnimmt, begründet im
+    Issue, was übernommen und was verworfen wird: die Begründung ist das
+    Signal, an dem sich die nächste Session ausrichtet, nicht die Zahl der
+    Runden. Solange niemand benannt ist, sagt der Abschlussreport, welche
+    Issues auf eine Abnahme warten. *Übernommen aus `mhdbdb-tei-only`
+    (Regel 17, Abnahme durch die Fachexpertin), bei der ersten Übertragung am
+    22.09.2026 entfallen und am 24.09.2026 zurückgeholt.*
