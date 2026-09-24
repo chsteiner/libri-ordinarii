@@ -46,10 +46,11 @@ liest [`AGENTS.md`](AGENTS.md) (die Einstiegskarte für jede Session) und
 Christian Steiner: libri-ordinarii. Arbeitsrepositorium für die Libri
 ordinarii des Cantus Network, mit Messungen und Arbeitsjournal zum Beitrag.
 In: Christian Steiner (Hg.): chsteiner. GitHub / Zenodo. 2026. Datenset.
+DOI: [10.5281/zenodo.22938521](https://doi.org/10.5281/zenodo.22938521)
 
-Die DOI steht auf der Zenodo-Seite des Eintrags; zitiert wird die
-Konzept-DOI (»Cite all versions«). Der Eintrag enthält dieses Repositorium
-als Release und die Belege zum Beitrag als `deposition.zip`.
+Das ist die Konzept-DOI, sie gilt für alle Versionen. Der Zenodo-Eintrag
+enthält dieses Repositorium als Release `v1.0` und die Belege zum Beitrag
+als `deposition.zip`.
 
 Lizenz der Skripte und Dokumente: [CC BY 4.0](LICENSE.md), Christian Steiner,
 Digital Humanities Craft OG, Graz. Die Daten, die `derived/` aus den TEIs

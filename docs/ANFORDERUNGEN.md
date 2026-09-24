@@ -112,3 +112,8 @@ dann entscheidet Christian, ob daraus Vermerke werden.
 
 Braucht Christians Autorität: GitHub-Repo anlegen, Lizenz festlegen
 (README), Zenodo-Release. Kein Agent tut das.
+
+**Erledigt am 24.09.2026.** Öffentlich seit 22.09.2026, CC BY 4.0; Release
+`v1.0` auf Zenodo, Konzept-DOI 10.5281/zenodo.22938521. Den Upload hat
+ein Agent im Browser ausgeführt, veröffentlicht erst auf Christians
+ausdrückliches »ja«.
