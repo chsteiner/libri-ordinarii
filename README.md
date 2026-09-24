@@ -43,8 +43,13 @@ liest [`AGENTS.md`](AGENTS.md) (die Einstiegskarte für jede Session) und
 
 ## Zitieren
 
-Christian Steiner: libri-ordinarii. Ein Arbeitsrepositorium für Libri
-ordinarii mit Coding Agents. GitHub 2026. `[PRÜFEN: DOI nach dem Release]`
+Christian Steiner: libri-ordinarii. Arbeitsrepositorium für die Libri
+ordinarii des Cantus Network, mit Messungen und Arbeitsjournal zum Beitrag.
+In: Christian Steiner (Hg.): chsteiner. GitHub / Zenodo. 2026. Datenset.
+
+Die DOI steht auf der Zenodo-Seite des Eintrags; zitiert wird die
+Konzept-DOI (»Cite all versions«). Der Eintrag enthält dieses Repositorium
+als Release und die Belege zum Beitrag als `deposition.zip`.
 
 Lizenz der Skripte und Dokumente: [CC BY 4.0](LICENSE.md), Christian Steiner,
 Digital Humanities Craft OG, Graz. Die Daten, die `derived/` aus den TEIs
