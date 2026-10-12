@@ -60,6 +60,6 @@ als Issue mit `modell:offen`; was ein Mensch entscheiden muss, als `auto:pair`.
   brauchen; `derived/incipits.jsonl` ist gitignoriert (ADR-1). Ein Commit, der
   `scripts/` ändert, ändert die beiden Markdown-Dateien im selben Commit oder
   sagt, warum nicht.
-- Review vor dem ersten Push jedes Branches (`fable-reviewer`, wenn verfügbar),
+- Review vor dem ersten Push jedes Branches (`reviewer`, wenn verfügbar),
   mit Branch, Basis, Ziel in einem Satz und Rundennummer im Auftrag.
 - Kein Push nach `main` ohne Kickoff, siehe `playbooks/BETRIEBSVERTRAG.md`.
