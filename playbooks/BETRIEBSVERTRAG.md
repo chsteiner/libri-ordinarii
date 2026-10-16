@@ -65,7 +65,7 @@ kann, ohne dass es jemand merkt.
 ## 4. Was vor jedem Push passiert
 
 13. **Review vor dem ersten Push jedes PRs**, mit dem `reviewer`, wenn
-    verfügbar (nicht dem `fable-advisor`, der ist der Berater für offene
+    verfügbar (nicht dem `advisor`, der ist der Berater für offene
     Entwurfsfragen). Mitgeben: Branch, Basis, Ziel in einem Satz, Nummer der
     Review-Runde, ab Runde 2 die Vorrunden-Befunde. Bei einem Diff, der etwas
     repariert, zusätzlich die Frage: **was hat diese Änderung wahr gemacht,
